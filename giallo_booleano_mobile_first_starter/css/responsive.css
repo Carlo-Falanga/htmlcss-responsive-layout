@@ -1,4 +1,42 @@
+/* Soluzione qui */
+@media screen and (min-width: 769px) {
+  #topbar {
+    justify-content: left;
+  }
 
+  main,
+  footer {
+    padding: 3rem;
+  }
+
+  .recipe-origin {
+    display: inline-block;
+  }
+
+  .recipe-title {
+    font-size: 1.3rem;
+  }
+
+  .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 6rem;
+  }
+
+  .social-networks button{
+    padding: 0.5rem 3rem;
+  }
+
+  .ads {
+	display: block;
+}
+
+.presentation img{
+   float: left;
+   margin: 0 20px 10px 0;
+}
+}
 
 
 
